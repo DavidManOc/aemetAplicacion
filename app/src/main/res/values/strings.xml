@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">aemetAplicacion</string>
+    <string name="iniciar_sesion">iniciar sesion</string>
+    <string name="registrarse">Regístrate aquí</string>
+    <string name="texto1">¿Aún no tienes cuenta?</string>
+
+    <string name="Acceso">ACCESO</string>
+    <string name="usuario">Usuario</string>
+
+    <string name="Registro">REGISTRO</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="municipio">Municipio</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+
+    <string name="texto2">Bienvenido</string>
+    <string name="mostrar_datos">Mostrar Datos</string>
+    <string name="historial">Historial</string>
+    <string name="salir">Salir</string>
+
+    <string name="texto3">Elige la provincia</string>
+    <string name="texto4">Elige el municpio</string>
+    <string name="texto5">Elige la comunidad autónoma</string>
+    <string name="buscar">Buscar</string>
+
+    <string name="info">Información de</string>
+    <string name="fecha">Fecha</string>
+    <string name="tmax">Temperatura Máxima</string>
+    <string name="tmin">Temperatura Minima</string>
+    <string name="precip">Probabilidad de Precipitación</string>
+    <string name="cielo">Estado del Cielo</string>
+    <string name="termica">Sensación Térmica</string>
+    <string name="humedad">Humedad Relativa</string>
+    <string name="viento">Velocidad del Viento</string>
+    <string name="nieve">Cota de Nieve</string>
+
+
+
+</resources>

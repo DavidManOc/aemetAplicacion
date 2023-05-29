@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clm">
+        <item>Toledo</item>
+        <item>Cuenca</item>
+        <item>Albacete</item>
+        <item>Ciudad Real</item>
+        <item>Guadalajara</item>
+    </string-array>
+    <string-array name="madrid">
+        <item>Madrid</item>
+    </string-array>
+</resources>

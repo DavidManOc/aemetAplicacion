@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_rv_tiempo_foto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="foto camiseta"
+            app:srcCompat="@drawable/tiempo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_rv_municipio_tiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Municipio" />
+
+            <TextView
+                android:id="@+id/txt_rv_temperatura_tiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Temperatura" />
+
+            <TextView
+                android:id="@+id/txt_rv_precipitacion_tiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Precipitacion" />
+
+            <TextView
+                android:id="@+id/txt_rv_viento_tiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Viento" />
+
+            <TextView
+                android:id="@+id/txt_rv_nublado_tiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nublado" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

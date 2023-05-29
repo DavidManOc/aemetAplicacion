@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aemetApplication</string>
+    <string name="iniciar_sesion">Log In</string>
+    <string name="registrarse">Sign In here</string>
+    <string name="texto1">You don´t have any account?</string>
+
+    <string name="Acceso">LOG IN</string>
+    <string name="usuario">User</string>
+
+    <string name="Registro">SIGN UP</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Surname</string>
+    <string name="municipio">Town</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="texto2">Welcome</string>
+    <string name="mostrar_datos">Display Data</string>
+    <string name="historial">History</string>
+    <string name="salir">Log Out</string>
+
+    <string name="texto3">Choose the province</string>
+    <string name="texto4">Choose the town</string>
+    <string name="texto5">Choose the community</string>
+    <string name="buscar">Search</string>
+
+    <string name="info">Information about</string>
+    <string name="fecha">Date</string>
+    <string name="tmax">Maximum Temperature</string>
+    <string name="tmin">Minimum Temperature</string>
+    <string name="precip">Probability of Precipitation</string>
+    <string name="cielo">Sky Condition</string>
+    <string name="termica">Heat Index</string>
+    <string name="humedad">Relative Humidity</string>
+    <string name="viento">Wind Speed</string>
+    <string name="nieve">Snow Level</string>
+
+</resources>
