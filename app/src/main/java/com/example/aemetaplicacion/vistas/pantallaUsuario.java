@@ -82,8 +82,8 @@ public class pantallaUsuario extends AppCompatActivity {
         builder.show();
     }
     public void mostrar_historial(View view) {
-        Intent intent = new Intent(this, historialActivity.class);
-        startActivity(intent);
+        Toast.makeText(this,"No esta disponible. Está en desarrollo..", Toast.LENGTH_SHORT).show();
+        return;
     }
     public void mostrar_datos(View view) {
         Intent intent = new Intent(this, elegirDatosActivity.class);
