@@ -70,7 +70,7 @@ public class mostrar_Datos_Activity extends AppCompatActivity {
         Intent intent = getIntent();
         if(intent != null){
             tipo_codigo = intent.getStringExtra(elegirDatosActivity.EXTRA_CODIGO);
-            URL_PETICION = "https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/"+tipo_codigo+"/?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkLm1hbnphLm9AZ21haWwuY29tIiwianRpIjoiMzI5NTQzZDQtOWZlOC00ZWI3LTlmNGYtNWY2NDBhOGQ4MDMxIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE2Nzk5OTQwMDUsInVzZXJJZCI6IjMyOTU0M2Q0LTlmZTgtNGViNy05ZjRmLTVmNjQwYThkODAzMSIsInJvbGUiOiIifQ.iS-pyI2rDx8luybpjTqXn5p2T-ICFNxX184BxRGN9tM";
+            URL_PETICION = "https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/"+tipo_codigo+"/?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkLm1hbnphLm9AZ21haWwuY29tIiwianRpIjoiNDM3Yzg4ZDgtZmM5OS00ZDI1LWI3MmUtNDU4YTEzYzA3ODc0IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE2ODU5NDcwMjksInVzZXJJZCI6IjQzN2M4OGQ4LWZjOTktNGQyNS1iNzJlLTQ1OGExM2MwNzg3NCIsInJvbGUiOiIifQ.SdDttPN4ZNscOAutjCHegyeWfmqXjEd-v2XqBOHMtVo";
         }
         //---------------------------------------------------------------------------
         try {
